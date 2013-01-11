@@ -1,0 +1,5 @@
+require "bundler/gem_tasks"
+desc "Genera la documentaciC3n de la GEM"
+task :rdoc do
+    sh 'rdoc --exclude Gemfile --exclude Guardfile --exclude Rakefile --exclude rspec_*'
+end
