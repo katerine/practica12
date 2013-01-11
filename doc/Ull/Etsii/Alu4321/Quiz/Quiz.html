@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: Ull::Etsii::Alu4321::Quiz::Quiz</title>
+
+  <link rel="stylesheet" href="../../../../rdoc.css" type="text/css" media="screen" />
+
+  <script src="../../../../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../../../js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../../../js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../../../js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../../../../index.html">Home</a>
+          <a href="../../../../index.html#classes">Classes</a>
+          <a href="../../../../index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="../../../../ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb">ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link"><a href="../../../../Object.html">Object</a></p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-i-question">#question</a></li>
+          
+          <li><a href="#method-i-right">#right</a></li>
+          
+          <li><a href="#method-i-run">#run</a></li>
+          
+          <li><a href="#method-i-to_html">#to_html</a></li>
+          
+          <li><a href="#method-i-to_s">#to_s</a></li>
+          
+          <li><a href="#method-i-wrong">#wrong</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="../../../../ull-etsii-alu4321-quiz/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="../../../../ull-etsii-alu4321-quiz/Guardfile.html">Guardfile</a></li>
+        
+          <li class="file"><a href="../../../../ull-etsii-alu4321-quiz/LICENSE_txt.html">LICENSE.txt</a></li>
+        
+          <li class="file"><a href="../../../../ull-etsii-alu4321-quiz/Rakefile.html">Rakefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="../../../../images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="../../../../Ull.html">Ull</a></li>
+        
+          <li><a href="../../../../Ull/Etsii.html">Ull::Etsii</a></li>
+        
+          <li><a href="../../../../Ull/Etsii/Alu4321.html">Ull::Etsii::Alu4321</a></li>
+        
+          <li><a href="../../../../Ull/Etsii/Alu4321/Quiz.html">Ull::Etsii::Alu4321::Quiz</a></li>
+        
+          <li><a href="../../../../Ull/Etsii/Alu4321/Quiz/Answer.html">Ull::Etsii::Alu4321::Quiz::Answer</a></li>
+        
+          <li><a href="../../../../Ull/Etsii/Alu4321/Quiz/Question.html">Ull::Etsii::Alu4321::Quiz::Question</a></li>
+        
+          <li><a href="../../../../Ull/Etsii/Alu4321/Quiz/Quiz.html">Ull::Etsii::Alu4321::Quiz::Quiz</a></li>
+        
+          <li><a href="../../../../Object.html">Object</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">Ull::Etsii::Alu4321::Quiz::Quiz</h1>
+
+    <div id="description" class="description">
+      
+<p>Clase que permite la construcciC3n de cuestionarios tipo test mediante un
+DSL</p>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+      <!-- Attributes -->
+      <div id="attribute-method-details" class="method-section section">
+        <h3 class="section-header">Attributes</h3>
+
+        
+        <div id="name-attribute-method" class="method-detail">
+          <a name="name"></a>
+          
+          <a name="name="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">name</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description">
+          
+          
+          
+          </div>
+        </div>
+        
+        <div id="questions-attribute-method" class="method-detail">
+          <a name="questions"></a>
+          
+          <a name="questions="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">questions</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description">
+          
+          
+          
+          </div>
+        </div>
+        
+      </div><!-- attribute-method-details -->
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">(name)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Recibe el nombre del test y un bloque con las preguntas y sus respuestas</p>
+
+<p>Ejemplo de uso: quiz = <a href="Quiz.html#method-c-new">Quiz.new</a>(“Test
+1”){ |e| e.question “Pregunta 1”, e.wrong =&gt; “Respuesta incorrecta 1”,
+e.wrong =&gt; “Respuesta incorrecta 2”, e.wrong =&gt; “Respuesta incorrecta
+3”, e.rigth =&gt; “Respuesta correcta” }</p>
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 26</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">name</span>)
+    <span class="ruby-ivar">@counter</span> = <span class="ruby-value">0</span>
+    <span class="ruby-ivar">@aciertos</span> = <span class="ruby-value">0</span>
+    <span class="ruby-ivar">@name</span> = <span class="ruby-identifier">name</span>
+    <span class="ruby-ivar">@questions</span> = []
+
+    <span class="ruby-keyword">yield</span> <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="question-method" class="method-detail ">
+          <a name="method-i-question"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">question</span><span
+              class="method-args">(title, anss)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>MC)todo que recibe el tC-tulo <em>title</em> de la pregunta y una serie de
+parC!metros como respuestas</p>
+            
+
+            
+            <div class="method-source-code" id="question-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 50</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">question</span>(<span class="ruby-identifier">title</span>, <span class="ruby-identifier">anss</span>)
+    <span class="ruby-identifier">answers</span> = []
+
+    <span class="ruby-identifier">anss</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">ans</span><span class="ruby-operator">|</span>
+        <span class="ruby-identifier">a</span> = <span class="ruby-constant">Answer</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">ans</span>)
+        <span class="ruby-identifier">answers</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">a</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">q</span> = <span class="ruby-constant">Question</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">title</span>, <span class="ruby-identifier">answers</span>)
+    <span class="ruby-identifier">questions</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">q</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- question-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- question-method -->
+
+      
+        <div id="right-method" class="method-detail ">
+          <a name="method-i-right"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">right</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Pregunta correcta</p>
+            
+
+            
+            <div class="method-source-code" id="right-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 44</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">right</span>
+    <span class="ruby-value">:right</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- right-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- right-method -->
+
+      
+        <div id="run-method" class="method-detail ">
+          <a name="method-i-run"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">run</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Ejecuta el test por consola. Presenta cada pregunta y las posibles
+respuestas. Al final muestra los resultados.</p>
+            
+
+            
+            <div class="method-source-code" id="run-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 64</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">run</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-identifier">name</span>
+    <span class="ruby-identifier">questions</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">q</span><span class="ruby-operator">|</span>
+        <span class="ruby-identifier">puts</span> <span class="ruby-identifier">q</span>
+        <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;Su respuesta: &quot;</span>
+        <span class="ruby-identifier">resp</span> = <span class="ruby-identifier">gets</span>.<span class="ruby-identifier">chomp</span>.<span class="ruby-identifier">to_i</span>
+        <span class="ruby-identifier">raise</span> <span class="ruby-constant">IndexError</span>, <span class="ruby-node">&quot;Answer must be between 1 and #{q.answers.size}.&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">resp</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-identifier">q</span>.<span class="ruby-identifier">answers</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">and</span> <span class="ruby-identifier">resp</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">q</span>.<span class="ruby-identifier">answers</span>[<span class="ruby-identifier">resp</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>].<span class="ruby-identifier">state</span>
+            <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Correcto!&quot;</span>.<span class="ruby-identifier">colorize</span>(<span class="ruby-value">:light_green</span>)
+            <span class="ruby-ivar">@aciertos</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+        <span class="ruby-keyword">else</span>
+            <span class="ruby-identifier">correcta</span> = <span class="ruby-identifier">q</span>.<span class="ruby-identifier">answers</span>.<span class="ruby-identifier">select</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">ans</span><span class="ruby-operator">|</span> <span class="ruby-identifier">ans</span>.<span class="ruby-identifier">state</span> }.<span class="ruby-identifier">first</span>
+            <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Fallo, la respuesta correcta era #{correcta}&quot;</span>.<span class="ruby-identifier">colorize</span>(<span class="ruby-value">:red</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">puts</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Has acertado el #{(@aciertos/questions.size.to_f)*100}% de las preguntas [#{@aciertos} de #{questions.size}].&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- run-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- run-method -->
+
+      
+        <div id="to_html-method" class="method-detail ">
+          <a name="method-i-to_html"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">to_html</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Genera el test en formato html. Dicho test es totalmente funcional,
+permitiendo la selecciC3n de respuestas y la correcciC3n de las mismas</p>
+            
+
+            
+            <div class="method-source-code" id="to_html-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 95</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_html</span>
+    <span class="ruby-comment"># SetUp del fichero de salida</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-keyword">not</span> <span class="ruby-constant">Dir</span>.<span class="ruby-identifier">exist?</span> <span class="ruby-string">&quot;html&quot;</span>
+        <span class="ruby-comment"># Copiamos el directorio html con los ficheros bC!sicos</span>
+        <span class="ruby-identifier">require</span> <span class="ruby-string">'fileutils'</span>
+        <span class="ruby-constant">FileUtils</span>.<span class="ruby-identifier">cp_r</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">expand_path</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">dirname</span>(<span class="ruby-keyword">__FILE__</span>)) <span class="ruby-operator">+</span> <span class="ruby-string">'/html'</span>, <span class="ruby-string">'html'</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-comment"># Generamos HTML</span>
+    <span class="ruby-identifier">htmlFile</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">new</span>(<span class="ruby-node">&quot;html/#{name.gsub(/[\ \\\/:]/, '_')}.html&quot;</span>, <span class="ruby-string">&quot;w&quot;</span>)
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">IOError</span>, <span class="ruby-string">'Can\t access to html output file'</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">htmlFile</span>
+    <span class="ruby-comment"># Generamos JavaScript</span>
+    <span class="ruby-identifier">jsFile</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">&quot;html/js/quiz.js&quot;</span>, <span class="ruby-string">&quot;w&quot;</span>)
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">IOError</span>, <span class="ruby-string">'Can\t access to javascript output file'</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">jsFile</span>
+    
+    <span class="ruby-comment"># Construimos los ERB y los escribimos en los ficheros</span>
+    <span class="ruby-identifier">require</span> <span class="ruby-string">'templates'</span>
+    <span class="ruby-identifier">rhtml</span> = <span class="ruby-constant">ERB</span>.<span class="ruby-identifier">new</span>(<span class="ruby-constant">HTML_TEMPLATE</span>)
+    <span class="ruby-identifier">htmlFile</span>.<span class="ruby-identifier">syswrite</span>(<span class="ruby-identifier">rhtml</span>.<span class="ruby-identifier">result</span>(<span class="ruby-identifier">binding</span>))
+    <span class="ruby-identifier">htmlFile</span>.<span class="ruby-identifier">close</span>
+    
+    <span class="ruby-identifier">rjs</span> = <span class="ruby-constant">ERB</span>.<span class="ruby-identifier">new</span>(<span class="ruby-constant">JAVASCRIPT_TEMPLATE</span>)
+    <span class="ruby-identifier">jsFile</span>.<span class="ruby-identifier">syswrite</span>(<span class="ruby-identifier">rjs</span>.<span class="ruby-identifier">result</span>(<span class="ruby-identifier">binding</span>))
+    <span class="ruby-identifier">jsFile</span>.<span class="ruby-identifier">close</span>
+    
+    
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- to_html-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- to_html-method -->
+
+      
+        <div id="to_s-method" class="method-detail ">
+          <a name="method-i-to_s"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">to_s</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>RepresentaciC3n visual de un Test en forma de String.</p>
+            
+
+            
+            <div class="method-source-code" id="to_s-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 84</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_s</span>
+    <span class="ruby-identifier">out</span> = <span class="ruby-identifier">name</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;\n&quot;</span>
+    <span class="ruby-identifier">questions</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">q</span><span class="ruby-operator">|</span>
+        <span class="ruby-identifier">out</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot;#{q}\n&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">out</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- to_s-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- to_s-method -->
+
+      
+        <div id="wrong-method" class="method-detail ">
+          <a name="method-i-wrong"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">wrong</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Pregunta incorrecta</p>
+
+<p>Avoid collisions</p>
+            
+
+            
+            <div class="method-source-code" id="wrong-source">
+<pre>
+<span class="ruby-comment"># File ull-etsii-alu4321-quiz/lib/ull-etsii-alu4321-quiz.rb, line 38</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">wrong</span>
+    <span class="ruby-ivar">@counter</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    [<span class="ruby-ivar">@counter</span>, <span class="ruby-constant">WRONG</span>]
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- wrong-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- wrong-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+
